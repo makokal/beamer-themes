@@ -2,6 +2,12 @@
 
 ## Usage
 * Put the style file in your path and add appropriate logos
+* Use it in your beamer as follows
+``` 
+\documentclass{beamer}
+\usetheme{JAutomation} % or whatever name you change it to
+...
+```
 * Enjoy
 
 ## Licence
