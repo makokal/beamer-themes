@@ -1,14 +1,29 @@
 # Latex beamer themes for presentations
 
+## Current themes
+Themes are in respective folders together with sample files showing usage.
+1. JUB - I used this while I was with [Jacobs University](http://www.jacobs-university.de)
+2. AFLU - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
+
 ## Usage
-* Put the style file in your path and add appropriate logos
+* Put the style file in your path and (customize as needed; logos, colors etc)
 * Use it in your beamer as follows
 ``` 
 \documentclass{beamer}
-\usetheme{JAutomation} % or whatever name you change it to
+\usetheme{JUB} % or whatever name you change it to
 ...
 ```
 * Enjoy
+
+
+## Bonus
+Use the ``` Makefile ``` provided for compilation. Set you pdf viewer to auto-refresh and you never have to run compile with latex again (including bibtex!!!). On a Mac I recommend Skim. On Ubuntu with Evince, add a ```~/.latexmkrc``` file with [these contents](https://gist.github.com/makokal/6626722)
+
+## Contributing
+Pull requests are always welcome.
+
+
+
 
 ## Licence
 
