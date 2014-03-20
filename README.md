@@ -1,9 +1,11 @@
 # Latex beamer themes for presentations
 
 ## Current themes
-Themes are in respective folders together with sample files showing usage.
-1. JUB - I used this while I was with [Jacobs University](http://www.jacobs-university.de)
-2. AFLU - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
+Themes are in respective folders together with sample files showing usage:
+
+- JUB - I used this while I was with [Jacobs University](http://www.jacobs-university.de)
+- AFLU - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
+
 
 ## Usage
 * Put the style file in your path and (customize as needed; logos, colors etc)
@@ -12,6 +14,15 @@ Themes are in respective folders together with sample files showing usage.
 \documentclass{beamer}
 \usetheme{JUB} % or whatever name you change it to
 ...
+
+\begin{frame}
+    \frametitle{Measure Theoretic Foundations of ML}
+    
+    \begin{definition}[$\sigma$ Algebra]
+        Consider $(\Omega, F)$ ...
+    \end{definition}
+\end{frame}
+
 ```
 * Enjoy
 
