@@ -4,7 +4,7 @@
 Themes are in respective folders together with sample files showing usage:
 
 - JUB - I used this while I was with [Jacobs University](http://www.jacobs-university.de)
-- AFLU - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
+- ALUF - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
 
 
 ## Usage

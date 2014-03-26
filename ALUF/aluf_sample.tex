@@ -1,0 +1,119 @@
+\documentclass{beamer}
+\usetheme{ALUF}
+
+\usepackage[utf8]{inputenc}
+% \usepackage{palatino}
+% \usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[expert]{mathdesign}
+\usepackage[protrusion=true,expansion=true,tracking=true,kerning=true]{microtype}
+
+
+
+\title{Gibbs Sampling for the Un-initiated}
+\subtitle{As if this needs a subtitle}
+\author{Prof. Dr. FirstName LastName}
+\date{\today}
+\institute{\url{email@some-cool-place.ext}\\\url{http://www.cool-url.com}}
+
+\begin{document}
+
+\begin{frame}[plain,t]
+\titlepage
+\end{frame}
+
+\begin{frame}% [plain,t]
+	\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+%=============================================================================================
+
+\section{Introduction}
+\begin{frame}
+\frametitle{Some awesome frame title but not too long}
+\framesubtitle{That is what the subtitle is for}
+\begin{itemize}
+\item First thing
+	\begin{itemize}
+	\item small point
+	\item fine print
+	\end{itemize}
+\item Second thing
+	\begin{enumerate}
+	\item point 1
+	\end{enumerate}
+\item Third thing
+	\begin{description}
+	\item[Research] the scientific pursuit for knowledge
+	\end{description}
+\end{itemize}
+\end{frame}
+
+\subsection{Awesome subsection}
+\begin{frame}
+	\frametitle{Another Frame Title}
+
+	Here comes some math!
+
+	\begin{equation}
+
+		\begin{bmatrix}
+	        \Phi_t \\
+	        \Phi_{t+1} \\
+	        \vdots \\
+	        \Phi_{t+H}
+	    \end{bmatrix}
+	    ~=~
+	    \begin{bmatrix}
+	        \phi_t^1, \ldots, \phi_t^d \\
+	        \phi_{t+1}^1, \ldots, \phi_{t+1}^d \\
+	        \vdots \\
+	        \phi_{t+H}^1, \ldots, \phi_{t+H}^d
+	    \end{bmatrix}
+
+		\label{eq:random}
+	\end{equation}
+
+\end{frame}
+
+\subsection{Some nice subsection}
+\begin{frame}
+\frametitle{Blocks}
+\begin{definition}[Greetings]
+Hello World
+\end{definition}
+
+\begin{theorem}[Fermat's Last Theorem]
+$a^n + b^n = c^n, n \leq 2$
+\end{theorem}
+
+\begin{alertblock}{Uh-oh.}
+By the pricking of my thumbs.
+\end{alertblock}
+
+\begin{exampleblock}{Uh-oh.}
+Something evil this way comes.
+\end{exampleblock}
+
+\end{frame}
+
+
+\section{Another Section} % (fold)
+\label{sec:another_section}
+
+\begin{frame}
+	\frametitle{Notation}
+	\begin{definition}[Random Variable]
+		Consider $\Omega, F, \mu$, with $\Omega$ being the set of events, $F$ the $\sigma$-algebra on $\Omega$ and some arbitrary measure $\mu$. Further consider an observation space $\Omega', F', \mu'$... A random variable is a deterministic function that 'transports/maps' events from $\Omega$ to $\Omega'$ and effectively induces a new measure $\mu'$. When $\mu'(\Omega') = 1$, it is a probability measure.
+
+	\end{definition}
+\end{frame}
+
+
+% section another_section (end)
+
+
+%\ThankYouFrame
+
+\end{document}
