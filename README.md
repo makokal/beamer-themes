@@ -8,11 +8,15 @@ Themes are in respective folders together with sample files showing usage:
 
 
 ## Usage
-* Put the style file in your path and (customize as needed; logos, colors etc)
+* Clone the repo
+```
+git clone https://github.com/makokal/beamer-themes.git
+```
+* Put the chosen style file in your path and (customize as needed; logos, colors etc)
 * Use it in your beamer as follows
 ``` 
 \documentclass{beamer}
-\usetheme{JUB} % or whatever name you change it to
+\usetheme{ALUF} % or whatever name you change it to
 ...
 
 \begin{frame}
