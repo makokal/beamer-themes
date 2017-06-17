@@ -6,6 +6,7 @@ Themes are in respective folders together with sample files showing usage:
 - JUB - I used this while I was with [Jacobs University](http://www.jacobs-university.de)
 - ALUF - For my current affiliation, [University of Freiburg](http://srl.informatik.uni-freiburg.de). Still a work in progress
 
+These themes were adapted from the [Gelugor theme](https://github.com/liantze/beamer-gelugor) by LianTze Lim, which were in turn styled after [Universiti Sains Malaysia's](http://www.usm.my) [Powerpoint style](http://tex.my/gelugor-a-usm-beamer-theme/).
 
 ## Usage
 * Clone the repo
@@ -14,14 +15,14 @@ git clone https://github.com/makokal/beamer-themes.git
 ```
 * Put the chosen style file in your path and (customize as needed; logos, colors etc)
 * Use it in your beamer as follows
-``` 
+```
 \documentclass{beamer}
 \usetheme{ALUF} % or whatever name you change it to
 ...
 
 \begin{frame}
     \frametitle{Measure Theoretic Foundations of ML}
-    
+
     \begin{definition}[$\sigma$ Algebra]
         Consider $(\Omega, F)$ ...
     \end{definition}
